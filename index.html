@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
+  });
+  </script>
+  <script type="text/javascript">
+   $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+   });​
+   </script>
+
+</head>
+<body>
+<div id="menu">
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">SPA Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+</div>
+		  <br/>
+<section id="about" class="section">
+  <br/><br/>
+  <h1>About Me</h1>
+  <br/>
+  <p>Gifts Boutique. <br/>
+    3D Printing and Paint service.
+  </p>
+</section>
+
+<section id="photos" class="section">
+  <br/><br/>
+  <h1>My Photos</h1>
+  <div class="gallery">
+    <a target="_blank" href="images/lithopan.jpg">
+      <img src="images/lithopan.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Customized lithopan picture.</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images/charmander.jpg">
+      <img src="images/charmander.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Charmander</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images/deer wall decor.jpg">
+      <img src="images/deer wall decor.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Deer Wall Decor</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images/love statue.jpg">
+      <img src="images/love statue.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Love Statue</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/waving baby groot.jpg">
+      <img src="images/waving baby groot.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Waving Baby Groot</div>
+  </div>
+  <br/><br/><br/><br/>
+  <br/><br/><br/><br/>
+  <br/><br/><br/><br/>
+  <br/><br/><br/><br/>
+</section>
+
+<section id="playlist" class="section">
+  <br/><br/>
+  <h1>My Playlist</h1>
+  <br/>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Cp8cqAroWjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br/><br/><br/>
+  <br/><br/><br/>
+</section>
+
+<section id="like" class="section">
+  <br/><br/>
+  <h1>Give Me a Like</h1>
+  <iframe width="450" height="35" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FDnYGiftsBoutique&width=450&layout=standard&action=like&size=large&share=true&height=35&appId" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  <br/>
+  <br/>
+  <br/>
+</section>
+
+<section id="qrcoder" class="section">
+  <br/><br/>
+  <h1>Scan My Code</h1>
+  <p><img style="float: left" src="images/qrcode.png"/></p>
+  <p>Scan this QRCode to get into our Facebook page!</p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</section>
+
+<section id="spa" class="section">
+  <br/><br/>
+  <h1>Q&A</h1>
+  <p>
+    <h4>Q1:</h4> What is the 3 main differences between WEB1 / WEB2 / WEB3 ? <br/>
+    <h4>A1:</h4> 
+    <table id="QA">
+      <tr>
+        <th>WEB 1</th>
+        <th>WEB 2</th>
+        <th>WEB 3</th>
+      </tr>
+      <tr>
+        <td>Owning Content</td>
+        <td>Sharing Content</td>
+        <td>Consolidating Content</td>
+      </tr>
+      <tr>
+        <td>WebForms</td>
+        <td>Web Applications</td>
+        <td>Smart Applications</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Social Network</td>
+        <td>User Behaviour</td>
+      </tr>
+    </table>
+    <br/>
+    <br/>
+    <h4>Q2:</h4> Looking for drug side effects? difference between WEB 1 and WEB 3? <br/>
+    <h4>A2:</h4> 
+    <table id="QA">
+      <tr>
+        <th>WEB 1</th>
+        <th>WEB 3</th>
+      </tr>
+      <tr>
+        <td>Need to find manually the specific table of drugs, then the table of the specific drug and then the table of drug effects</td>
+        <td>Just open "Search Engine" like 'Google'/'Bing' and search for drug effects</td>
+      </tr>
+    </table>
+    <br/>
+    <br/>
+    <h4>Q3:</h4> Looking for Acamol drug side effects differences between WEB1 / WEB2 / WEB3 <br/>
+    <h4>A3:</h4> 
+    <table id="QA">
+      <tr>
+        <th>WEB 1</th>
+        <th>WEB 2</th>
+        <th>WEB 3</th>
+      </tr>
+      <tr>
+        <td>Need to find manually the specific table of drugs, then the table of the specific drug and then the table of drug effects</td>
+        <td>Can be finded with search engines, blogs, social networks, etc.</td>
+        <td>Just open "Search Engine" like 'Google'/'Bing' and search for 'Acamol drug effects' and you will get all the related results</td>
+      </tr>
+    </table>
+    <br/>
+    <br/>
+  </p>
+  <br/>
+</section>
+
+<section id="contact" class="section">
+  <br/><br/>
+  <h1>Contact Me</h1>
+  <br/>
+  <br/>
+  <div class="container">
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <br/>
+</section>
+
+</body>
+</html>
