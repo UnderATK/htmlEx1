@@ -4,6 +4,13 @@
 	width: 100%;
 }
 
+#logo {
+	width: 120px;
+	height: 35px;
+	float: left;
+	padding: 14px 16px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
